@@ -1,4 +1,4 @@
-# 3D Connexion SpaceNavigator
+# 3Dconnexion SpaceNavigator
 
 CADを触るにあたり何かしらのマウスが必要だったので、 [イギリス帰りのデザイナ](http://www.triplebottomline.cc)がオススメしていた[3Dconnexion SpaceNavigator for Notebook](http://www.amazon.co.jp/gp/product/B0016OOS16/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B0016OOS16&linkCode=as2&tag=mitsukuni-22) を購入。
 
