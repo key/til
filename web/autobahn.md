@@ -7,9 +7,14 @@
 Crossbar.ioと組み合わせてAutobahnのPython, JavaScript用のライブラリを試してみた。
 といってもサンプルコードを写経しただけですが。
 
+
 ## Pub/Sub
 
+
 `com.myapp.oncounter`というチャネルを通じてメッセージを送受信するサンプル。
+
+Pub/Sub自体はCrossbarが担当する。
+
 
 ### Crossbar.io
 
@@ -67,9 +72,12 @@ Crossbar.ioと組み合わせてAutobahnのPython, JavaScript用のライブラ�
 }
 ```
 
+
 ### Python
 
-`com.myapp.oncounter` チャネルを通じてカウンタの値を送信する。
+`127.0.0.1:8000`に接続する。
+
+`com.myapp.oncounter` チャネルを通じてカウンタの値をPublish(送信)する。
 カウンタは1秒に1ずつインクリメント。
 
 ```
@@ -98,9 +106,12 @@ if __name__ == '__main__':
     runner.run(MyComponent)
 ```
 
+
 ### JavaScript
 
-`com.myapp.oncounter` チャネルを通じてカウンタの値を受信する。
+`127.0.0.1:8000`に接続する。
+
+`com.myapp.oncounter` チャネルをSubscribe(購読)してカウンタの値を受信する。
 受信した値はJavaScript Consoleに出力。
 
 ```
