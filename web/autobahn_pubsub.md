@@ -1,4 +1,4 @@
-# Autobahn
+# Autobahn Pub/Sub
 
 2016/03/26
 
@@ -11,7 +11,7 @@ Crossbar.ioと組み合わせてAutobahnのPython, JavaScript用のライブラ�
 ## Pub/Sub
 
 
-`com.myapp.oncounter`というチャネルを通じてメッセージを送受信するサンプル。
+`com.myapp.oncounter`というトピックを通じてメッセージを送受信するサンプル。
 
 Pub/Sub自体はCrossbarが担当する。
 
@@ -77,7 +77,7 @@ Pub/Sub自体はCrossbarが担当する。
 
 `127.0.0.1:8000`に接続する。
 
-`com.myapp.oncounter` チャネルを通じてカウンタの値をPublish(送信)する。
+`com.myapp.oncounter` トピックを通じてカウンタの値をPublish(送信)する。
 カウンタは1秒に1ずつインクリメント。
 
 ```
@@ -111,7 +111,7 @@ if __name__ == '__main__':
 
 `127.0.0.1:8000`に接続する。
 
-`com.myapp.oncounter` チャネルをSubscribe(購読)してカウンタの値を受信する。
+`com.myapp.oncounter` トピックをSubscribe(購読)してカウンタの値を受信する。
 受信した値はJavaScript Consoleに出力。
 
 ```
