@@ -6,6 +6,11 @@ DMM.make AKIBAのワークショップで見せてもらった。
 
 ![laser cutter](./files/laser_cutter.jpg)
 
+## 加工機
+
+- [Trotec Speedy 300](http://www.troteclaser.com/ja-JP/Laser-Machines/Pages/laser-engraving-machines-speedy.aspx)
+- 加工機 726 x 432 ｍｍ
+
 ## 手順
 
 1. 加工データを読み込む
