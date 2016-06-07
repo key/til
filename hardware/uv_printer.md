@@ -6,8 +6,9 @@ DMM.make AKIBAの真鍮ハンマーづくりのワークショップで体験。
 
 ## 機材
 
-ローランドのUVプリンター。名前思い出したらあとで書く。
+- [Roland LEF-12](http://www.rolanddg.co.jp/versauv/products/lef-12/)
 
+ローランドのUVプリンター。
 高さ2mm以内なら凹凸があっても印刷できる。
 
 
