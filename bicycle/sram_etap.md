@@ -5,7 +5,10 @@
 ワイドリムホイールをテストする予定だったが、注文していたカセットが届かなかったので行えず。
 eTapが早めに届いていたので急遽組み付けてテスト。
 
+
 ## 組付け
+
+組付け前にSRAMが公開している[SRAM RED eTAP System Installation](https://www.youtube.com/watch?v=XlLwu-SDo5w)を見ることを強く推奨します。
 
 ### ブラケット
 
@@ -81,3 +84,9 @@ cons
 - ワイア式よりやや動作が遅く、シフト操作のタイミングが分からない（そのうち慣れる）
 - インナーからアウターへの変速が不調
     - チェーンリング（かなり使い込んだFC-7800）、ウェッジの不備など原因がありそう
+
+
+## Appendix
+
+- [SRAM公式のユーザマニュアル](https://www.sram.com/service/sram/all)
+- [SRAM RED eTAP System Installation](https://www.youtube.com/watch?v=XlLwu-SDo5w)
