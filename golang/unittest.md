@@ -19,6 +19,8 @@
 
 ## ファイルの中身
 
+`sum.go`
+
 ```go:sum.go
 package calc
 
@@ -28,6 +30,8 @@ func Sum(x int, y int) int {
 ```
 
 ユニットテスト用の関数はprefixに `Test` を付与する（先に書いてある通り）。
+
+`sum_test.go`
 
 ```go:sum_test.go
 package calc
